@@ -26,12 +26,7 @@ export default {
   background-color: transparent;
   border: solid 1px #55a3bd;
   outline: none;
-  transition: box-shadow .2s ease-in-out;
 }
-
-.form__Select select:active {
-    box-shadow: -2px -2px 30px -5px #55a3bd;
-  }
 
 @media screen and (max-width: 640px) {
   .form__select {
